@@ -1,0 +1,359 @@
+<style media="screen">
+  .banner_tag h1,.banner_tag h3{
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: .2px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.65);
+  }
+  .cms-static-page header {
+    padding:0 !important;
+  }
+  .cms-static-page .title {
+    display:none !important;
+  }
+  .cms-static-page .row {
+    max-width: 100% !important;
+  }
+  .cms-static-page .payload {
+    margin: 0px !important;
+  }
+  .cms-static-page .cms-content-inner{
+    padding: 0px !important;
+  }
+  .grid-container {
+    padding-right: .625rem;
+    padding-left: .625rem;
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+  .grid-container.sign-up {
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .banner_tag {
+    margin-top: 18rem;
+  }
+  .card {
+    margin-top: 80px;
+    padding: 30px 20px;
+    background: #fff;
+    margin-bottom: 50px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 4px 1px 18px 9px rgba(0,0,0,.25);
+  }
+  .card-header {
+    margin-bottom: 20px;
+  }
+  .card-footer {
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+  }
+  .radius {
+    border-radius: 50%;
+  }
+  .card-footer > .button {
+    width: 100%;
+  }
+  .button.radius {
+    background: #f36519;
+    padding: 15px;
+  }
+  .button:hover , .button:focus {
+    background: #ce4f0b
+  }
+  h1.section-title {
+    color: #363d41;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding: 1.875rem 0;
+    padding-top: 50px;
+  }
+  .ptb-20 {
+    padding: 20px 0px;
+  }
+  .ds_phone {
+    background: #ebebeb;
+    padding: 50px;
+  }
+  .ds_phone .grid-container .mt {
+    margin-top: 140px;
+  }
+  .ds_phone .grid-container img {
+    width: 90%;
+  }
+  .phone-img {
+    margin-top: -140px;
+  }
+  .ds_phone .grid-container .mt-20 {
+    margin-top: 20px;
+  }
+  .pb-50 {
+    padding-bottom: 50px;
+  }
+  @media only screen and (max-width: 600px) {
+    .large-12.columns.cms-content {
+      padding: 0px;
+    }
+    .grid-container.sign-up {
+      position:relative;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    .banner {
+      position: absolute;
+    }
+    .row {
+      margin: 0px !important;
+    }
+    .banner_tag h1 {
+      position: absolute;
+      z-index: 2;
+      top: 90px;
+    }
+    .banner_tag h3 {
+      display: none;
+    }
+    .banner_tag {
+    margin-top: 110px;
+    }
+    img.ml-15 {
+      margin-left: 15px;
+    }
+    .ds_phone {
+      padding: 50px 10px;
+    }
+    .ds_phone .grid-container img {
+      width: 100%
+    }
+    .phone-img {
+      margin-top: 40px;
+      margin-bottom: -30px;
+    }
+    .ds_phone .grid-container .mt{
+      margin-top: -15px;
+    }
+    .plr-20 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .ds_phone .grid-container .mt-20 {
+      margin-bottom: 30px;
+    }
+  }
+</style>
+<div class="dealership_page">
+  <div class="grid-container sign-up">
+    <div class="small-12 medium-8 columns">
+      <div class="banner_tag">
+        <h1>Reach millions of Car Buyers today.</h1>
+        <h3><i style="font-size: 30px; color: #00a651;" class="fa"></i> Sell your vehicles on the leading online car classifieds platform.</h3>
+        <h3><i style="font-size: 30px; color: #00a651;" class="fa"></i> Manage your leads and vehicle inventory with world-class tools.</h3>
+        <h3><i style="font-size: 30px; color: #00a651;" class="fa"></i> Promote and sell faster with premium add-ons for your ads.</h3>
+      </div>
+    </div>
+    <div class="small-12 medium-4 columns">
+      <div class="card" id="notif" style="display:none;">
+        <center><span><b>Thank you! A sales representative will get in touch with you shortly.</b></p>
+        <img class="check" src="https://i.imgur.com/H1E0DsZ.png" style="width: 50%; padding: 20px;">
+        <a href="https://www.carmudi.com.ph/listing/create/" type="button" class="button radius"
+        style="text-decoration: none;  cursor: pointer;"><b>Create your first free listing</b></a>
+      </div>
+      <div class="card" id="input-form">
+        <div class="card-header text-center">
+          <span><b>Sign Up for Free Dealer Account</b></span>
+        </div>
+        <div class="card-section">
+          <div class="small-12 medium-6 columns">
+            <input type="text" name="fname" id="fname" value="" class="form-control" placeholder="First Name" required="">
+          </div>
+          <div class="small-12 medium-6 columns">
+            <input type="text" name="lname" id="lname" value="" class="form-control" placeholder="Last Name" required="">
+          </div>
+          <div class="small-12 medium-12 columns">
+            <input type="number" name="contact" id="contact" class="form-control" placeholder="Contact Number" value="" required="">
+          </div>
+          <div class="small-12 medium-12 columns">
+            <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" value="" required="">
+          </div>
+          <div class="small-12 medium-12 columns">
+            <input type="text" name="dealership" id="dealership" class="form-control" placeholder="Dealership Name" value="" required="">
+          </div>
+        </div>
+        <div class="card-footer text-center">
+          <label id="required" style="color:red;display:none;">Required fields </label>
+          <a href="#" id="register" class="btn-block button radius"><b>Register for a Free Account</b></a><br>
+          <a href="https://www.carmudi.com.ph/listing/create/" style="color: #006fc1; text-decoration: none;">Not a Dealer? Click here to sell a car now!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="banner">
+    <img src="https://i.imgur.com/fQEdqav.jpg" alt="">
+  </div>
+  <div class="grid-container">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1 class="section-title text-center" >Frequently Asked Questions</h1>
+      </div>
+    </div>
+  </div>
+  <div class="grid-container plr-20">
+    <div class="row ptb-20">
+      <div class="small-12 large-4 columns text-center">
+        <img src="https://i.imgur.com/Jm4zb46.png" alt="" style="width:50%;">
+      </div>
+      <div class="small-12 large-8 columns ptb-20">
+        <h3><b>Is it free to sell on Carmudi</b></h3>
+        <p>It absolutely is! We do have some additional options for Professional Dealers, such as unlimited listings, featured ad boosters and lead analytics tools to help manage your business online with us. These are completely optional.</p>
+      </div>
+    </div>
+    <div class="row ptb-20">
+      <div class="small-12 medium-4 columns text-center">
+        <img src="https://i.imgur.com/OPBUyqM.png" alt="" style="width:50%;">
+      </div>
+      <div class="small-12 medium-8 columns ptb-20">
+        <h3><b>I'm a Car Dealer. How do I sign up for a Pro Plan account?</b></h3>
+        <p>Simply provide the details <a href="#dealership">above</a> and we'll contact you right away and have you set up. Simple!</p>
+      </div>
+    </div>
+    <div class="row ptb-20">
+      <div class="small-12 medium-4 columns text-center">
+        <img src="https://i.imgur.com/3v82zSC.png" alt="" style="width:50%;">
+      </div>
+      <div class="small-12 medium-8 columns ptb-20">
+        <h3><b>After I post my vehicles on Carmudi, how do I start getting leads for my ads?</b></h3>
+        <p>Once your vehicles are live on Carmudi, potential buyers will be able to send an inquiry via multiple channels right away. You may also view these inquiries in your Dealer Dashboard.</p>
+      </div>
+    </div>
+  </div>
+  <div class="grid-container text-center pb-50">
+    <a href="#fname" type="button" class="button radius">Get my FREE Dealer Account</a>
+  </div>
+  <div class="ds_phone">
+    <div class="grid-container">
+      <div class="row">
+        <div class="small-12 large-6 large-push-6 columns">
+          <img src="https://i.imgur.com/BnKAoHz.png" alt="" >
+        </div>
+        <div class="small-12 large-6 large-pull-6 columns mt">
+          <h1>The widest audience of Philippine car buyers ever.</h1>
+          <h3>Reach millions of car buyers beyond your physical space--on their laptop, their smartphone, wherever they are.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 columns">
+          <img src="https://i.imgur.com/AfxyQsG.png" alt="" class="phone-img">
+        </div>
+        <div class="small-12 large-6 columns mt-20">
+          <h1>Sell your cars the smarter way.</h1>
+          <h3>Enjoy our user-friendly lead analytics tools and vehicle inventory management system to help you manage your business in the most efficient way possible.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 large-push-6 columns">
+          <img src="https://i.imgur.com/ZWiW5qz.png" alt="" class="phone-img">
+        </div>
+        <div class="small-12 large-6 large-pull-6 columns mt-20">
+          <h1>We help customers find you. Fast.</h1>
+          <h3>Customers discover your cars with our enhanced search filter tools so they get exactly what they're looking for. No more endless browsing.</h3>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container text-center">
+      <a href="#fname" type="button" class="button radius">Get my FREE Dealer Account</a>
+    </div>
+  </div>
+  <div class="grid-container text-center">
+    <div class="row ptb-20">
+      <div class="small-12 columns">
+        <h1 class="section-title">What They Say About Us</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 large-4 columns">
+        <img src="https://i.imgur.com/aVgPqge.jpg" alt="" style="border-radius: 50%;">
+        <h3><b>Carlos D. Ng</b></h3>
+        <h3><b>Owner, Good Cars Trading</b></h3>
+        <h4>Carmudi is good in terms of service and giving of marketing collaterals.</h4>
+      </div>
+      <div class="small-12 large-4 columns">
+        <img src="https://i.imgur.com/VndIdsI.jpg" alt="" style="border-radius: 50%;">
+        <h3><b>Norieh Anones</b></h3>
+        <h3><b>OIC, Autobase Car Exchange</b></h3>
+        <h4>For more than 2 years, I can recommend to others that Carmudi is another venue or network to our business. Satisfied because we get our units sold thru Carmudi.</h4>
+      </div>
+      <div class="small-12 large-4 columns">
+        <img src="https://i.imgur.com/pSwuTXN.jpg" alt="" style="border-radius: 50%;">
+        <h3><b>Arman Kiani</b> </h3>
+        <h3><b>Manager, Athwal Car Center Corp.</b></h3>
+        <h4>Carmudi has good response on buyer inquiries through e-mail and text message!</h4>
+      </div>
+    </div>
+  </div>
+  <div class="grid-container text-center">
+    <div class="row">
+      <div class="small-12 columns ">
+        <h1 class="section-title">Our Partner Dealers</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 large-6 columns">
+        <img src="https://i.imgur.com/J5wHehs.png" alt="">
+      </div>
+      <div class="small-12 large-6 columns">
+        <img src="https://i.imgur.com/RthhUTb.png" alt="" class="ml-15">
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns text-center">
+        <h1 class="section-title">Ready to sell like a pro?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="grid-container text-center">
+    <div class="small-12 columns pb-50">
+      <a href="#fname" type="button" class="button radius">Get my FREE Dealer Account</a>
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+  $('#register').on('click', function() {
+    var fname = $('#fname').val();
+    var lname = $('#lname').val();
+    var contact = $('#contact').val();
+    var email = $('#email').val();
+    var dealership = $('#dealership').val();
+    if (fname != "" && lname != "" && contact != "" && email != "" && dealership != "" ) {
+      postResponse(fname,lname,contact,email,dealership);
+      $('#notif').show();
+      $('#input-form').hide();
+    } else {
+      $('#required').show();
+    }
+  });
+
+  function postResponse(fname,lname,contact,email,dealership) {
+    $.ajax({
+      url:"https://docs.google.com/forms/d/e/1FAIpQLSedGcSD23LPkPmPsj7gj7JOg5Ar-wCGM68u8Qe3UGpg0bXTAg/formResponse?",
+      method:"POST",
+      data: {
+        'entry.723013231':fname,
+        'entry.419041435':lname,
+        'entry.700167120':contact,
+        'entry.1935783782':email,
+        'entry.1529070492':dealership
+      },
+      statusCode: {
+        0: function() {
+        },
+      }
+    });
+  }
+</script>

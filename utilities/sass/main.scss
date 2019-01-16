@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+$theme-colors: (
+  "primary": #006FC1,
+  "danger": #C23616 ,
+  "warning" : #FF773D ,
+  "success" : #44BD32
+);
+// nav-tab 
+$nav-pills-link-active-color:     #006FC1;
+$nav-pills-link-active-bg:        #fff; 
+$nav-pills-border-radius:           0px;
+// table
+$tbl-user-padding-x:              2rem ; 
+$tbl-user-th-color:               #7F8FA6;  
+// button {
+$btn-padding-x:                   1.5rem ;
+// modal
+$modal-header-border-color:       transparent;
+$modal-footer-border-color:       transparent;
+// breadcrumbs {
+$breadcrumb-bg:                   transparent;
+$breadcrumb-active-color:         #fff;
+$breadcrumb-divider-color:        #fff;
+$breadcrumb-divider:              quote(">");
+$breadcrumb-padding-y:            1.5rem;
+$breadcrumb-padding-x:            .75rem;
+$breadcrumb-margin-bottom:        0;
+//card 
+$card-spacer-y:                   .75rem ;
+$card-spacer-x:                   0.9375rem ;
+$card-border-color:               #e5e9f2;
+// font
+$link-hover-decoration:           none ;
+$font-family-base:                Roboto , sans-serif;
+$font-weight-bold:                500;
+// colors
+$blue:    #006FC1 ;
+$indigo:  #6610f2 ;
+$purple:  #6f42c1 ;
+$pink:    #e83e8c ;
+$red:     #C23616 ;
+$orange:  #FF773D ;
+$yellow:  #FBC531 ;
+$green:   #44BD32 ;
+$teal:    #20c997 ;
+$cyan:    #17a2b8 ;
+$light:   #F5F6FA ;
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import 'config';
+@import 'custom';
+@import 'device';
