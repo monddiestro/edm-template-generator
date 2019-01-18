@@ -17,6 +17,10 @@
                                 <input id="header_img" type="text" class="form-control" placeholder="Image URL"/>
                             </div>
                             <div class="form-group">
+                                <label for="">Header URL</label>
+                                <input id="header_url" type="text" class="form-control" placeholder="Header Promo URL"/>
+                            </div>
+                            <div class="form-group">
                                 <label for="">Promo 1 Image</label>
                                 <input id="promo_img_one" type="text" class="form-control" placeholder="Image URL"/>
                             </div>

@@ -29,6 +29,7 @@ class Welcome extends CI_Controller {
 
 		$header_title = $this->input->get('header_title');
 		$header_img = $this->input->get('header_img');
+		$header_url = $this->input->get('header_url');
 		// promo 1
 		$img_one = $this->input->get('img_one');
 		$title_one = $this->input->get('title_one');
@@ -48,7 +49,7 @@ class Welcome extends CI_Controller {
 		if(empty($header_img)) {
 			$data["template"] = "";
 		} else {
-			$data["template"] = $this->promo_boilerplate($header_title,$header_img,$img_one, $title_one,$desc_one,$url_one,$img_two,$title_two,$desc_two,$url_two,$img_three,$title_three,$desc_three,$url_three);
+			$data["template"] = $this->promo_boilerplate($header_title,$header_img,$header_url,$img_one, $title_one,$desc_one,$url_one,$img_two,$title_two,$desc_two,$url_two,$img_three,$title_three,$desc_three,$url_three);
 		}
 
 		$this->load->view('head.php');
@@ -59,7 +60,7 @@ class Welcome extends CI_Controller {
 
 	}
 
-	function promo_boilerplate($header_title,$header_img,$img_one, $title_one,$desc_one,$url_one,$img_two,$title_two,$desc_two,$url_two,$img_three,$title_three,$desc_three,$url_three) {
+	function promo_boilerplate($header_title,$header_img,$header_url,$img_one, $title_one,$desc_one,$url_one,$img_two,$title_two,$desc_two,$url_two,$img_three,$title_three,$desc_three,$url_three) {
 
 		$template = "";
 
@@ -96,6 +97,7 @@ class Welcome extends CI_Controller {
 		$template .= '<td align="center" valign="top">';
 		$template .= '<table border="0" cellpadding="32" cellspacing="0" width="100%" >     ';                          
 		$template .= '<tr>';
+		$template .= '<td align="center" valign="top">';
 		$template .= '<span style="font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: bold;line-height: normal;font-size: 32px;text-align: center;color: #FFFFFF;">';
 		$template .= '<!-- header title -->';
 		$template .= $header_title;
@@ -123,8 +125,8 @@ class Welcome extends CI_Controller {
 		$template .= '<tr>';
 		$template .= '<td align="center" valign="top">';
 		$template .= '<!-- view all promos button -->';
-		$template .= '<a href="https://www.carmudi.com.ph/newcars/promos/" style="cursor:pointer;width: 166px;height: 50px; font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: bold;line-height: normal;font-size: 20px;text-align: center; color:#006FC1;background: #FFFFFF;';
-		$template .= 'border-radius: 5px;text-decoration: none;padding: 14px 16px;">View All Promos</a>';
+		$template .= '<a href="'.$header_url.'" style="cursor:pointer;width: 166px;height: 50px; font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: bold;line-height: normal;font-size: 20px;text-align: center; color:#006FC1;background: #FFFFFF;';
+		$template .= 'border-radius: 5px;text-decoration: none;padding: 14px 16px;">View Promo</a>';
 		$template .= '</td> ';                                   
 		$template .= '</tr>';
 		$template .= '</table>';
@@ -143,7 +145,7 @@ class Welcome extends CI_Controller {
 		$template .= '<!-- promo title -->';
 		$template .= $title_one;
 		$template .= '</span>';
-		$template .= '<span style="display:block;font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 23px;font-size: 18px;padding-top: 12px;padding-bottom: 16px;">';
+		$template .= '<span style="color:#363d41;display:block;font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 23px;font-size: 18px;padding-top: 12px;padding-bottom: 16px;">';
 		$template .= '<!-- promo description -->';
 		$template .= $desc_one;
 		$template .= '</span>';
@@ -177,7 +179,7 @@ class Welcome extends CI_Controller {
 		$template .= '<!-- promo title -->';
 		$template .= $title_two;
 		$template .= '</span>';
-		$template .= '<span style="display:block;font-family:Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 23px;font-size: 18px;padding-top: 12px;padding-bottom: 16px;">';
+		$template .= '<span style="color:#363d41;display:block;font-family:Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 23px;font-size: 18px;padding-top: 12px;padding-bottom: 16px;">';
 		$template .= '<!-- promo description -->';
 		$template .= $desc_two;
 		$template .= '</span>';
@@ -219,7 +221,7 @@ class Welcome extends CI_Controller {
 		$template .= '<!-- promo title -->';
 		$template .= $title_three;
 		$template .= '</span>';
-		$template .= '<span style="display:block;font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 23px;font-size: 18px;padding-top: 12px;padding-right: 32px;padding-bottom: 16px;">';
+		$template .= '<span style="color:#363d41;display:block;font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 23px;font-size: 18px;padding-top: 12px;padding-right: 32px;padding-bottom: 16px;">';
 		$template .= '<!-- promo description -->';
 		$template .= $desc_three;
 		$template .= '</span>';
@@ -283,6 +285,8 @@ class Welcome extends CI_Controller {
 		$template .= '<tr style="background-color:#fff;">';
 		$template .= '<td align="center" valign="top">';
 		$template .= '<table border="0" cellpadding="20" cellspacing="0" width="100%" >';
+		$template .= '<tr>';
+		$template .= '<td align="center">';
 		$template .= '<!-- please insert carmudi app google play link on (href="") tag -->';
 		$template .= '<a href="https://play.google.com/store/apps/details?id=com.carmudi.android&referrer=adjust_reftag%3Dc8q2ZnWsSmB6F%26utm_source%3DOn-site%26utm_campaign%3DFooterBannerPH%26utm_content%3DAppLaunch%26utm_term%3DCarmudiApp" target="_blank" style="cursor:pointer;text-decoration:none;" >';
 		$template .= '<img src="https://i.imgur.com/kSCG1lo.png" style="width: 125px;padding:0 12px;" >';
@@ -291,6 +295,8 @@ class Welcome extends CI_Controller {
 		$template .= '<a href="https://itunes.apple.com/app/id949823961?mt=8" target="_blank" style="cursor:pointer;text-decoration:none;" >';
 		$template .= '<img src="https://i.imgur.com/QVFubVl.png" style="width: 125px;padding:0 12px;" >';
 		$template .= '</a>';
+		$template .= '</td>';
+		$template .= '</tr>';
 		$template .= '</table>';
 		$template .= '</td>';
 		$template .= '</tr>    ';                
