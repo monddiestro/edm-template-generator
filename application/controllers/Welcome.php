@@ -41,10 +41,10 @@ class Welcome extends CI_Controller {
 		$desc_two = $this->input->get('desc_two');
 		$url_two = $this->input->get('url_two');
 		// promo 3
-		$img_three = $this->input->get('img_two');
-		$title_three = $this->input->get('title_two');
-		$desc_three = $this->input->get('desc_two');
-		$url_three = $this->input->get('url_two');
+		$img_three = $this->input->get('img_three');
+		$title_three = $this->input->get('title_three');
+		$desc_three = $this->input->get('desc_three');
+		$url_three = $this->input->get('url_three');
 
 		if(empty($header_img)) {
 			$data["template"] = "";
