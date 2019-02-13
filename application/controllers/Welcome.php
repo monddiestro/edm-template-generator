@@ -484,6 +484,8 @@ class Welcome extends CI_Controller {
 		$template .= '</td>';
 		$template .= '</tr>';
 		$template .= '<!-- News -->';
+		// if both no content
+		if(!empty($news_one_img) || !empty($news_two_img)) {
 		$template .= '<tr style="background-color: #fff;">';
 		$template .= '<td align="center" valign="top">';
 		$template .= '<table border="0" cellpadding="32" cellspacing="0" width="100%" >';
@@ -492,6 +494,9 @@ class Welcome extends CI_Controller {
 		$template .= 'NEWS';
 		$template .= '</td>';
 		$template .= '</tr>';
+		}
+		// start
+		if(!empty($news_one_img)) {
 		$template .= '<tr>';
 		$template .= '<td align="center" valign="top" style="padding:0px 32px;">';
 		$template .= '<!-- News first image  -->';
@@ -519,6 +524,10 @@ class Welcome extends CI_Controller {
 		$template .= '</table>';
 		$template .= '</td>';
 		$template .= '</tr>';
+		}
+		// end
+		// start
+		if(!empty($news_two_img)) {
 		$template .= '<tr style="background-color: #fff;">';
 		$template .= '<td align="center" valign="top">';
 		$template .= '<table border="0" cellpadding="32" cellspacing="0" width="100%" >';
@@ -549,6 +558,8 @@ class Welcome extends CI_Controller {
 		$template .= '</table>';
 		$template .= '</td>';
 		$template .= '</tr>';
+		}
+		// end
 		$template .= '<tr style="background-color: #fff;">';
 		$template .= '<td align="center" valign="top">';
 		$template .= '<table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding:0 32px">';
