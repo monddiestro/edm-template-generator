@@ -560,15 +560,17 @@ class Welcome extends CI_Controller {
 		$template .= '</tr>';
 		}
 		// end
-		$template .= '<tr style="background-color: #fff;">';
-		$template .= '<td align="center" valign="top">';
-		$template .= '<table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding:0 32px">';
-		$template .= '<tr>';
-		$template .= '<td align="center" valign="top" style="border-bottom:1px solid #E1E1E1;"></td>';
-		$template .= '</tr>';
-		$template .= '</table>';
-		$template .= '</td>';
-		$template .= '</tr>';
+		if(!empty($news_one_img) && !empty($news_two_img)) {
+			$template .= '<tr style="background-color: #fff;">';
+			$template .= '<td align="center" valign="top">';
+			$template .= '<table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding:0 32px">';
+			$template .= '<tr>';
+			$template .= '<td align="center" valign="top" style="border-bottom:1px solid #E1E1E1;"></td>';
+			$template .= '</tr>';
+			$template .= '</table>';
+			$template .= '</td>';
+			$template .= '</tr>';
+		}
 		$template .= '<!-- Features-->';
 		$template .= '<tr style="background-color: #fff;">';
 		$template .= '<td align="center" valign="top">';
