@@ -500,7 +500,7 @@ class Welcome extends CI_Controller {
 		$template .= '<tr>';
 		$template .= '<td align="center" valign="top" style="padding:0px 32px;">';
 		$template .= '<!-- News first image  -->';
-		$template .= '<img width="536" height="255" src="['.$news_one_img.']" alt="" style="object-fit: cover;object-position: center;">';
+		$template .= '<img width="536" height="255" src="'.$news_one_img.'" alt="" style="object-fit: cover;object-position: center;">';
 		$template .= '</td>';
 		$template .= '</tr>';
 		$template .= '<tr>';
