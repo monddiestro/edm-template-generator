@@ -621,7 +621,7 @@ class Welcome extends CI_Controller {
 		$template .= '<td align="center" valign="top">';
 		$template .= '<table border="0" cellpadding="32" cellspacing="0" width="100%" >';
 		$template .= '<tr>';
-		$template .= '<td valign="top" style="color:#C4C4C4;font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important; line-height: 28px;font-size: 16px;font-weight:bold;">';
+		$template .= '<td valign="top" style="color:#C4C4C4;font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important; line-height: 28px;font-size: 18px;font-weight:bold;">';
 		$template .= 'TIPS & ADVICE';
 		$template .= '</td>';
 		$template .= '</tr>';
