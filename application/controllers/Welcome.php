@@ -328,7 +328,7 @@ class Welcome extends CI_Controller {
 		$template .= '<tr>';
 		$template .= '<td align="center" valign="top">';
 		$template .= '<span style="font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 25px;font-size: 16px;text-align: center;color: #919191;">';
-		$template .= 'If you are seeing this email, you have subscribed from our newsletter. Want to stop receiving emails from us? Unsubscribe from our list.';
+		$template .= 'If you are seeing this email, you have subscribed from our newsletter. Want to stop receiving emails from us? <a href="[unsubscribe]" style="color:#1170B8;">Unsubscribe</a> from our list.';
 		$template .= '</span>';
 		$template .= '</td>';
 		$template .= '</tr>';
@@ -795,7 +795,7 @@ class Welcome extends CI_Controller {
 		$template .= '<tr>';
 		$template .= '<td align="center" valign="top"  style="padding-left:40px;padding-right:40px;padding-bottom:32px;">';
 		$template .= '<span style="font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 25px;font-size: 16px;text-align: center;color: #919191;">';
-		$template .= 'If you are seeing this email, you have subscribed from our newsletter. Want to stop receiving emails from us? Unsubscribe from our list.';
+		$template .= 'If you are seeing this email, you have subscribed from our newsletter. Want to stop receiving emails from us? <a href="[unsubscribe]" style="color:#1170B8;">Unsubscribe</a> from our list.';
 		$template .= '</span>';
 		$template .= '</td>';
 		$template .= '</tr>';
