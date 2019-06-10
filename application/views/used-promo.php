@@ -3,7 +3,7 @@
         <div class="col-sm-8">
             <div class="card">
                 <div class="card-header">
-                    <h5>New Cars Promo Template</h5>
+                    <h5>Used Cars Promo Template</h5>
                 </div>
                 <div class="card-body">
                     <div class="row">

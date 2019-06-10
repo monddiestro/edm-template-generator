@@ -96,7 +96,7 @@
                         </div>
                         <div class="form-group">
                             <label for="">Features 2 URL</label>
-                            <input type="text" placeholder="URL" id="features_one_url" class="form-control"/>
+                            <input type="text" placeholder="URL" id="features_two_url" class="form-control"/>
                         </div>
                         <div class="form-group">
                             <label for="">Tips and Advice 1 Title</label>
