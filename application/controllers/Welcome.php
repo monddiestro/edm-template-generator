@@ -914,7 +914,7 @@ class Welcome extends CI_Controller {
 		$template .= '<td align="center" valign="top">';
 		$template .= '<!-- view all promos button -->';
 		$template .= '<a href="'.$header_url.'" style="cursor:pointer;width: 166px;height: 50px; font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: bold;line-height: normal;font-size: 20px;text-align: center; color:#006FC1;background: #FFFFFF;';
-		$template .= 'border-radius: 5px;text-decoration: none;padding: 14px 16px;">View Promo</a>';
+		$template .= 'border-radius: 5px;text-decoration: none;padding: 14px 16px;">View Cars</a>';
 		$template .= '</td> ';                                   
 		$template .= '</tr>';
 		$template .= '</table>';
@@ -940,7 +940,7 @@ class Welcome extends CI_Controller {
 		$template .= '<span style="display: block;padding: 17px 0;">';
 		$template .= '<!-- Avail promo button / insert link on (href="") tag -->';
 		$template .= '<a href="'.$url_one.'" style="cursor:pointer;width: 125px;height: 50px;font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: bold;line-height: normal; font-size: 16px;text-align: center;color: #FFFFFF;background: #006FC1;';
-		$template .= 'border-radius: 5px;text-decoration:none;padding:17px 24px;">Avail Promo';
+		$template .= 'border-radius: 5px;text-decoration:none;padding:17px 24px;">Inquire Now';
 		$template .= '</a>';
 		$template .= '</span>';
 		$template .= '</td> ';                                   
@@ -974,7 +974,7 @@ class Welcome extends CI_Controller {
 		$template .= '<span style="display: block;padding: 17px 0;">';
 		$template .= '<!-- Avail promo button / insert link on href tag -->';
 		$template .= '<a href="'.$url_two.'" style="cursor:pointer;width: 125px;height: 50px;font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: bold;line-height: normal; font-size: 16px;text-align: center;color: #FFFFFF;background: #006FC1;';
-		$template .= 'border-radius: 5px;text-decoration:none;padding:17px 24px;">Avail Promo';
+		$template .= 'border-radius: 5px;text-decoration:none;padding:17px 24px;">Inquire Now';
 		$template .= '</a>';
 		$template .= '</span>';
 		$template .= '</td>  '; 
@@ -1016,7 +1016,7 @@ class Welcome extends CI_Controller {
 		$template .= '<span style="display: block;padding: 17px 0;">';
 		$template .= '<!-- Avail promo button / insert link on (href="") tag -->';
 		$template .= '<a href="'.$url_three.'" style="cursor:pointer;width: 125px;height: 50px;font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: bold;line-height: normal; font-size: 16px;text-align: center;color: #FFFFFF;background: #006FC1;';
-		$template .= 'border-radius: 5px;text-decoration:none;padding:17px 24px;">Avail Promo';
+		$template .= 'border-radius: 5px;text-decoration:none;padding:17px 24px;">Inquire Now';
 		$template .= '</a>';
 		$template .= '</span>  ';  
 		$template .= '</td> ';                                   
