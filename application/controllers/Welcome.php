@@ -646,7 +646,7 @@ class Welcome extends CI_Controller {
 		$template .= '<tr>';
 		$template .= '<td align="center" valign="top" style="padding-bottom:48px;">';
 		$template .= '<!-- please insert link/url on (href="") tag for read more button -->';
-		$template .= '<a href="'.$tips_one_desc.'" style="width: 150px;height: 58px; font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: bold;line-height: normal;font-size: 18px;text-align: center; color:#FFFFFF;background: #006FC1 ;border-radius: 5px;text-decoration: none;padding: 14px 24px;">Read more</a>';
+		$template .= '<a href="'.$tips_one_url.'" style="width: 150px;height: 58px; font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: bold;line-height: normal;font-size: 18px;text-align: center; color:#FFFFFF;background: #006FC1 ;border-radius: 5px;text-decoration: none;padding: 14px 24px;">Read more</a>';
 		$template .= '</td>';
 		$template .= '</tr>';
 		$template .= '</table>';
