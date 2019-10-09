@@ -132,7 +132,7 @@ class Welcome extends CI_Controller {
 		$template .= '</table>';
 		$template .= '</td>';
 		$template .= '</tr>';
-		if(empty($img_one) && !empty($title_one) && !empty($desc_one)) {
+		if(!empty($img_one) && !empty($title_one) && !empty($desc_one)) {
 			$template .= '<tr style="background-color: #fff;">';
 			$template .= '<td align="center" valign="top">';
 			$template .= '<table border="0" cellpadding="16" cellspacing="0" width="100%" style="padding-top: 16px">  ';                             
