@@ -313,7 +313,7 @@ class Welcome extends CI_Controller {
 		$template .= '<tr>';
 		$template .= '<td align="center" valign="top">';
 		$template .= '<span style="font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 23px;font-size: 18px;text-align: center;color: #363D41;">';
-		$template .= '© Carmudi Philippines, 4F Mancor Corporate Center, 32nd Street Bonifacio Global City Taguig ';
+		$template .= '© Carmudi Philippines, 8F Fort Legend Tower, 3rd Ave Cor. 31st St. Bonifacio Global City, Taguig, Philippines, 1634';
 		$template .= '</span> ';
 		$template .= '</td>';
 		$template .= '</tr>';
@@ -789,7 +789,7 @@ class Welcome extends CI_Controller {
 		$template .= '<tr>';
 		$template .= '<td align="center" valign="top" style="padding-left:40px;padding-right:40px;">';
 		$template .= '<span style="font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 23px;font-size: 16px;text-align: center;color: #363D41;">';
-		$template .= '© Carmudi Philippines, 4F Mancor Corporate Center, 32nd Street Bonifacio Global City Taguig ';
+		$template .= '© Carmudi Philippines, 8F Fort Legend Tower, 3rd Ave Cor. 31st St. Bonifacio Global City, Taguig, Philippines, 1634';
 		$template .= '</span> ';
 		$template .= '</td>';
 		$template .= '</tr>';
@@ -1101,7 +1101,7 @@ class Welcome extends CI_Controller {
 		$template .= '<tr>';
 		$template .= '<td align="center" valign="top">';
 		$template .= '<span style="font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;font-style: normal;font-weight: normal;line-height: 23px;font-size: 18px;text-align: center;color: #363D41;">';
-		$template .= '© Carmudi Philippines, 4F Mancor Corporate Center, 32nd Street Bonifacio Global City Taguig ';
+		$template .= '© Carmudi Philippines, 8F Fort Legend Tower, 3rd Ave Cor. 31st St. Bonifacio Global City, Taguig, Philippines, 1634';
 		$template .= '</span> ';
 		$template .= '</td>';
 		$template .= '</tr>';
